@@ -1,0 +1,4 @@
+1.算法运行在TX2上帧数较低，故运行在笔记本上;
+2.将TX2上的摄像头读取的图像通过socket传给笔记本，笔记本做算法识别，再传给悟空机器人和TonyPi机器人做相应的反应;
+3.TonyPi上的server调用机器人舵机，传给笔记本;
+4.先运行TonyPi机器人和TX2上的server，再运行笔记本上的client,即s1_client_main_expression.py为表情识别，s2_client_main_action_recognition.py为动作识别
